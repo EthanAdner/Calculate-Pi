@@ -30,4 +30,3 @@ decimal=int(decimal)
 
 pi=sum([4*(((-1)**k)/(2*k+1)) for k in range(0,outerrange)])
 print("The approximate value of pi is {0}".format(round(pi, decimal)))
-#print("(The true value of e is {0})".format(round(math.e, decimals)))
